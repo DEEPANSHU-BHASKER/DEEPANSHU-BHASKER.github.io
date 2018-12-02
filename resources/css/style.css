@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: #fff;
+    color: #555;
+    font-family: 'Lato' , 'Arial' , sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.author-name{
+    color: #13f713;
+}
+
+.logo{
+    font-size: 120%;
+    color: #13f713;
+    float: left;
+    margin-top: 60px;
+    /* border-radius: 50%; */
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+    color: #fff;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #13f713;
+}
+
+h1{
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #fff;
+    font-size: 200%;
+    word-spacing: 2px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    /* margin-bottom: 50px; */
+}
+
+.skills{
+    height: 100vh;
+    /* list-style: none; */
+}
+
+
+.skills p {
+    font-size: 200%;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+
+.skills p::after{
+
+    display: block;
+    height: 2px;
+    background-color: #13f713;
+    content: " ";
+    width: 100px;
+    /* margin: 0 50%; */
+    margin-top: 10px;
+    margin-left: 520px;
+}
+
+.box{
+    margin-top: 250px;
+    padding: 1%;
+    padding-left: 70px;
+
+}
+
+.box i{
+    color: #13f713;
+    font-size: 400%;
+}
+
+.stars{
+    font-size: 200%;
+    margin-top: 20px;
+    color: rgb(28, 255, 179);
+}
+
+.font-big{
+    height: 90px;
+}
