@@ -14,16 +14,16 @@
 </head>
 <body>
 
-    <header>
+    <header  id="about-me">
         <nav>
             <div class="row">
                 <p class="logo">
                     <strong>Deepanshu Bhasker</strong>
                 </p>
                 <ul class="main-nav">
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Hobbies</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills-page">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -35,7 +35,7 @@
         </div>
     </header>
 
-    <section class="skills">
+    <section class="skills" id="skills-page">
 
         <div class="row">
             <p>Skills</p>
@@ -67,6 +67,107 @@
         </div>
         
     </section>
+
+    <section class="hobbies" id="hobbies">
+
+        <div class="row">
+            <p>Hobbies</p>
+        </div>
+
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <i class="icon ion-md-play"></i>
+                <h3>listening music</h3>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="icon ion-md-book"></i>
+                <h3>Reading</h3>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="icon ion-md-code"></i>
+                <h3>learning new things</h3>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="icon ion-md-football"></i>
+                <h3>Playing Sports</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form">
+        <div class="row">
+            <p>Contact Me</p> 
+        </div>
+
+        <div class="row">
+            <form action="#" method="post" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" id="name" placeholder="your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" id="email" placeholder="your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="subject">Subject:</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" id="subject" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="message">Tell Me:</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="your message"></textarea>
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="message">&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="SUBMIT">
+                    </div>
+                </div> 
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Kills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                    <li><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>copyright &copy; 2015 by Deepanshu Bhasker . All right Reserved .</p>
+        </div>
+    </footer>
 
 </body>
 </html>

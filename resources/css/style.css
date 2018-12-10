@@ -23,6 +23,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box{
@@ -96,7 +97,7 @@ h2{
 }
 
 .skills{
-    height: 100vh;
+    /* height: 100vh; */
     /* list-style: none; */
 }
 
@@ -115,14 +116,14 @@ h2{
     height: 2px;
     background-color: #13f713;
     content: " ";
-    width: 100px;
+    width: 60px;
     /* margin: 0 50%; */
     margin-top: 10px;
-    margin-left: 520px;
+    margin-left: 540px;
 }
 
 .box{
-    margin-top: 250px;
+    margin-top: 100px;
     padding: 1%;
     padding-left: 70px;
 
@@ -141,4 +142,168 @@ h2{
 
 .font-big{
     height: 90px;
+}
+
+.hobbies{
+    /* height: 100vh; */
+    margin-top: 100px;
+}
+
+.hobbies p {
+     font-size: 200%;
+     font-weight: 600;
+     text-align: center;
+     text-transform: capitalize;
+}
+
+.hobbies p::after{
+    display: block;
+    height: 2px;
+    background-color: #13f713;
+    content: " ";
+    width: 100px;
+    /* margin: 0 50%; */
+    margin-top: 10px;
+    margin-left: 520px;
+}
+
+.hobbies h3{
+    text-transform: capitalize;
+}
+
+.hobbies i{
+    color: #13f713;
+    font-size: 400%;
+}
+
+.section-form{
+    margin-top: 100px;
+}
+
+.section-form p {
+    font-size: 200%;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-form p::after {
+    display: block;
+    height: 2px;
+    background-color: #13f713;
+    content: " ";
+    width: 100px;
+    /* margin: 0 50%; */
+    margin-top: 10px;
+    margin-left: 520px;
+    margin-bottom: 100px;
+}
+
+.contact-form{
+    width: 66%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+textarea{
+    height: 100px;
+}
+
+*:focus{
+    outline-color: #13f713;
+}
+
+input[type=submit]{
+    padding: 10px 30px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color o.2s , color 0.2s;
+}
+
+input[type=submit]:active,
+input[type=submit]:hover{
+    background-color: #04d604;
+}
+
+input[type=submit]{
+    background-color: #13f713;
+    border: 1px solid #13f713;
+    color: #fff;
+}
+
+footer{
+    background-color: rgb(43, 42, 42);
+    padding: 50px;
+    font-size: 90%;
+}
+
+.footer-nav{
+    float: left;
+}
+
+.social-icons{
+    float: right;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li:link,
+.social-icons li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+
+.footer-nav li,
+.footer-nav li,
+.social-icons li,
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:active,
+.footer-nav li a:hover{
+    color: #13f713;
+}
+
+.social-icons li a:link,
+.social-icons li a:visited{
+    font-size: 160%;
+}
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-logo-instagram:hover {
+    color: #e95950;
+}
+
+.ion-logo-twitter:hover {
+    color: #55acee;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 70%;
+    margin-top: 20px;
+}
+
+.footer-nav li:last-child,
+.social-icons li:last-child {
+    margin-right: 0;
 }
