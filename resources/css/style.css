@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html,body{
     background: #fff;
     color: #555;
     font-family: 'Lato' , 'Arial' , sans-serif;
@@ -101,6 +101,10 @@ h2{
     /* list-style: none; */
 }
 
+section {
+    padding: 80px 0;
+}
+
 
 .skills p {
     font-size: 200%;
@@ -116,10 +120,10 @@ h2{
     height: 2px;
     background-color: #13f713;
     content: " ";
-    width: 60px;
+    width: 100px;
     /* margin: 0 50%; */
     margin-top: 10px;
-    margin-left: 540px;
+    margin: 0 45.5%;
 }
 
 .box{
@@ -144,10 +148,10 @@ h2{
     height: 90px;
 }
 
-.hobbies{
-    /* height: 100vh; */
+/* .hobbies{
+    height: 100vh;
     margin-top: 100px;
-}
+} */
 
 .hobbies p {
      font-size: 200%;
@@ -164,7 +168,7 @@ h2{
     width: 100px;
     /* margin: 0 50%; */
     margin-top: 10px;
-    margin-left: 520px;
+    margin: 0 46%;
 }
 
 .hobbies h3{
@@ -176,9 +180,9 @@ h2{
     font-size: 400%;
 }
 
-.section-form{
-    margin-top: 100px;
-}
+/* .section-form{
+    margin-top: 120px;
+} */
 
 .section-form p {
     font-size: 200%;
@@ -195,7 +199,7 @@ h2{
     width: 100px;
     /* margin: 0 50%; */
     margin-top: 10px;
-    margin-left: 520px;
+    margin: 0 45%;
     margin-bottom: 100px;
 }
 
