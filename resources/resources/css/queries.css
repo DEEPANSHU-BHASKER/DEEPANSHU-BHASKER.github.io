@@ -1,0 +1,153 @@
+@media only screen and (max-width: 1200px){
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{
+        padding: 0 2%;
+    }
+
+}
+@media only screen and (max-width: 768px){
+
+    body{
+        font-size: 17px;
+    }
+
+    .box i {
+        font-size: 300%;
+    }
+    .font-big {
+        height: 55px;
+    }
+    .box {
+        padding-left: 45px;
+    }
+
+    .logo {
+        margin-top: 52px;
+        /* border-radius: 50%; */
+    }
+
+       .skills p::after {
+           margin: 0 43%;
+           margin-bottom: 5px;
+           margin-top: 15px;
+       }
+
+        .hobbies p::after {
+            margin: 0 43%;
+            margin-bottom: 18px;
+            margin-top: 15px;
+        }
+
+        .section-form p::after {
+            margin: 0 43%;
+            margin-bottom: 18px;
+            margin-top: 15px;
+        }
+  
+}
+
+@media only screen and (max-width: 480px) {
+
+    body{
+        font-size: 14px;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .row,.hero-text-box{
+        padding: 0 4%;
+    }
+
+    .box {
+        margin-top: 20px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .col {
+        margin: 0 0 4% 0;
+    }
+
+    .skills p::after {
+        margin: 0 38%;
+        margin-bottom: 18px;
+        margin-top: 15px;
+    }
+
+    .font-big{
+        height: 50px;
+    }
+
+    .stars{
+        margin-top: 0;
+    }
+
+    .hobbies p::after {
+        margin: 0 38%;
+        margin-bottom: 18px;
+        margin-top: 15px;
+    }
+
+    .section-form p::after {
+        margin: 0 38%;
+        margin-bottom: 18px;
+        margin-top: 15px;
+    }
+
+    .social-icons {
+        float: left;
+        margin-left: 38%;
+    }
+
+    .footer-nav {
+        margin-left: 14%;
+    }
+
+
+}
+
+@media only screen and (max-width: 439px) {
+    body{
+        font-size: 12px;
+    }
+
+    /* .section-form {
+        margin-top: 120px;
+    } */
+
+    section {
+        padding: 20px 0;
+    }
+
+     .skills p::after {
+         margin: 0 36%;
+         margin-bottom: 18px;
+         margin-top: 5px;
+     }
+
+     .hobbies p::after {
+         margin: 0 36%;
+         margin-bottom: 18px;
+         margin-top: 5px;
+     }
+
+     .section-form p::after {
+         margin: 0 36%;
+         margin-bottom: 18px;
+         margin-top: 5px;
+     }
+}
+
+
+
