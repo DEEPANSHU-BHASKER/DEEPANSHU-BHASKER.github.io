@@ -64,6 +64,39 @@ header{
     font-weight: 600;
 }
 
+/* =================Sticky==================== */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.986);
+    box-shadow: 0 2px 2px rgb(219, 219, 219);
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 16px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 12px 0;
+    color: rgb(143, 143, 143);
+}
+
+.sticky .logo {
+    padding: 12px;
+    margin: 0;
+    /* border-radius: 50%; */
+}
+
+
+/* ===================sticky==================== */
+
+
+
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
@@ -100,10 +133,6 @@ h2{
     /* margin-bottom: 50px; */
 }
 
-.skills{
-    /* height: 100vh; */
-    /* list-style: none; */
-}
 
 section {
     padding: 80px 0;
@@ -134,7 +163,7 @@ section {
     margin-top: 100px;
     padding: 1%;
     padding-left: 70px;
-
+    /* position: relative; */
 }
 
 .box i{
@@ -317,3 +346,111 @@ footer p {
 .social-icons li:last-child {
     margin-right: 0;
 }
+
+/* ============Animation===================== */
+
+.js--wp-1{
+    opacity: 0;
+}
+.js--wp-2 {
+    opacity: 0;
+}
+.js--wp-3 {
+    opacity: 0;
+}
+.js--wp-4 {
+    opacity: 0;
+}
+.js--wp-1.animated {
+    opacity: 1;
+}
+.js--wp-2.animated {
+    opacity: 1;
+}
+.js--wp-3.animated {
+    opacity: 1;
+}
+.js--wp-4.animated {
+    opacity: 1;
+}
+
+.js--wp-5{
+    opacity: 0;
+}
+
+.js--wp-5.animated{
+    opacity: 1;
+}
+
+.js--wp-6 {
+    opacity: 0;
+}
+
+.js--wp-6.animated {
+    opacity: 1;
+}
+
+.js--wp-7 {
+    opacity: 0;
+}
+
+.js--wp-7.animated {
+    opacity: 1;
+}
+
+.js--wp-1a {
+    opacity: 0;
+}
+
+.js--wp-2a {
+    opacity: 0;
+}
+
+.js--wp-3a {
+    opacity: 0;
+}
+
+.js--wp-4a {
+    opacity: 0;
+}
+
+.js--wp-1a.animated {
+    opacity: 1;
+}
+
+.js--wp-2a.animated {
+    opacity: 1;
+}
+
+.js--wp-3a.animated {
+    opacity: 1;
+}
+
+.js--wp-4a.animated {
+    opacity: 1;
+}
+
+.js--wp-8 {
+    opacity: 0;
+}
+
+.js--wp-8.animated {
+    opacity: 1;
+}
+
+.js--wp-9 {
+    opacity: 0;
+}
+
+.js--wp-9.animated {
+    opacity: 1;
+}
+
+.js--wp-10 {
+    opacity: 0;
+}
+
+.js--wp-10.animated {
+    opacity: 1;
+}
+

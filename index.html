@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -25,45 +26,48 @@
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#skills-page">Skills</a></li>
                     <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#form">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
         <div class="hero-text-box">
-            <h1>Hello, I am <b class="author-name">Deepanshu Bhasker</b><br></h1>
-            <h2>I am a javaScript Programmer, <br>UI/UX Designer.</h2>
+            <h1>Hello, I am <b class="author-name" id="example2"></b><br></h1>
+            <h2 id="example"></h2>
+            <h2 id="example3"></h2>
+            <!-- <h1 id="example"><b class="author-name" id="example"></b></h1>
+            <h2 ></h2> -->
         </div>
     </header>
 
-    <section class="skills" id="skills-page">
+    <section class="skills js--skills" id="skills-page">
 
-        <div class="row">
-            <p>Skills</p>
+        <div class="row js--wp-5">
+            <p class="js--wp-5">Skills</p>
         </div>
 
 
         <div class="row">
             <div class="col span-1-of-4 box">
-                <i class="icon ion-logo-html5"></i>
-                <i class="icon ion-logo-css3"></i>
-                <h3>HTML/CSS</h3>
-                <h3 class="stars">****</h3>
+                <i class="icon ion-logo-html5 js--wp-1"></i>
+                <i class="icon ion-logo-css3 js--wp-1"></i>
+                <h3 class="js--wp-7">HTML/CSS</h3>
+                <h3 class="stars js--wp-6">****</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <i class="icon ion-logo-javascript"></i>
-                <h3>javaScript</h3>
-                <h3 class="stars">****</h3>
+                <i class="icon ion-logo-javascript js--wp-2"></i>
+                <h3 class="js--wp-7">javaScript</h3>
+                <h3 class="stars js--wp-6">****</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <i class="icon ion-logo-nodejs"></i>
-                <h3>Nodejs</h3>
-                <h3 class="stars">***</h3>
+                <i class="icon ion-logo-nodejs js--wp-3"></i>
+                <h3 class="js--wp-7">Nodejs</h3>
+                <h3 class="stars js--wp-6">***</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <img src="https://img.icons8.com/color/50/000000/mongodb.png" class="font-big">
-                <h3>MonogoDB</h3>
-                <h3 class="stars">****</h3>
+                <img src="https://img.icons8.com/color/50/000000/mongodb.png" class="font-big js--wp-4">
+                <h3 class="js--wp-7">MonogoDB</h3>
+                <h3 class="stars js--wp-6">****</h3>
             </div>
         </div>
         
@@ -72,30 +76,30 @@
     <section class="hobbies" id="hobbies">
 
         <div class="row">
-            <p>Hobbies</p>
+            <p class="js--wp-8">Hobbies</p>
         </div>
 
         <div class="row">
             <div class="col span-1-of-4 box">
-                <i class="icon ion-md-play"></i>
-                <h3>listening music</h3>
+                <i class="icon ion-md-play js--wp-1a"></i>
+                <h3 class="js--wp-9">listening music</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <i class="icon ion-md-book"></i>
-                <h3>Reading</h3>
+                <i class="icon ion-md-book js--wp-2a"></i>
+                <h3 class="js--wp-9">Reading</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <i class="icon ion-md-code"></i>
-                <h3>learning new things</h3>
+                <i class="icon ion-md-code js--wp-3a"></i>
+                <h3 class="js--wp-9">learning new things</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <i class="icon ion-md-football"></i>
-                <h3>Playing Sports</h3>
+                <i class="icon ion-md-football js--wp-4a"></i>
+                <h3 class="js--wp-9">Playing Sports</h3>
             </div>
         </div>
     </section>
 
-    <section class="section-form">
+    <section class="section-form js--wp-10" id="form">
         <div class="row">
             <p>Contact Me</p> 
         </div>
@@ -151,17 +155,17 @@
         <div class="row">
             <div class="col span-1-of-2">
                 <ul class="footer-nav">
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Kills</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills-page">Skills</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#form">Contact</a></li>
                 </ul>
             </div>
             <div class="col span-1-of-2">
                 <ul class="social-icons">
-                    <li><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
-                    <li><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/bhasker.deepanshu?ref=bookmarks"><i class="icon ion-logo-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/bhasker10/"><i class="icon ion-logo-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/wolfion_gaming/"><i class="icon ion-logo-twitter"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -170,5 +174,12 @@
         </div>
     </footer>
 
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="vendors/js/typer.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
+        
 </body>
 </html>
